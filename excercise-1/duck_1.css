@@ -1,0 +1,60 @@
+html body {
+  margin: 0 auto;
+  width: 600px;
+  height: 500px;
+  font-family: "arial", sans-serif;
+  font-size: 14px;
+}
+
+body{
+  display: flex;
+}
+
+.duck-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  width: 600px;
+}
+
+.first{
+  height: 200px;
+  background-color: rgb(255, 255, 240);
+}
+
+.second{
+  background-color: rgb(171, 183, 224);
+  height: 200px;
+}
+
+.duck{
+  float: left;
+  border-right: 8px solid rgb(84, 98, 148);
+}
+
+}
+.text{
+  width: 500px;
+
+}
+
+h1{
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+table {
+  text-align:left;
+}
+
+td{
+padding-left: 38px;
+}
+
+
+.pencil{
+  float: right;
+padding-right: 20px;
+padding-top: 10px;
+}

@@ -19,9 +19,9 @@ Commit an HTML and a CSS file to this repository.
 ![design](exercise-1.png)
 
 ### Assets
-  - John Duck: ![duck](duck.jpg)
-  - Jane Duck: ![duck](duck2.jpg)
-  - Pencil icon: ![pencil-icon](edit-icon.png)   
+John Duck | Jane Duck | Pencil icon
+--------- | --------- | -----------
+![duck](duck.jpg) | ![duck](duck2.jpg) | ![pencil-icon](edit-icon.png)   
 
 ### Other data
   - Name font size: 28 pixels
@@ -82,6 +82,12 @@ Add your answer to this readme file, commit your changes to this repository.
 ```
 #### Your answer: [2p]
 
+If we measure the space between the top left corner of the body element, and the top left corner of the yellow box, the distance is ~ 56.56 pixles. The body element has 0 px margins and paddings, so it starts right at the corner. 
+The blue box contains the yellow one, both of them has 20 px margins on the top and left side. 
+So the distance is the diagonal of the square , which has the side length, 2 x 20px.
+
+
+
 
 ## 3. Explain concepts (~15 minutes) [4 points]
 Add your answer to this readme file, commit your changes to this repository.
@@ -90,6 +96,20 @@ Add your answer to this readme file, commit your changes to this repository.
 ### Explain the difference between `display: block` and `display: inline` in CSS! What is `display: inline-block`?
 #### Your answer: [2p]
 
+Display block:
+Block level elements takes the full length of space available. They always start in a new line, and have some white spacing on the top and bottom. Width and height is customizable.
+
+Display inline:
+Does not starts in a new line, and they fill up only the space which is necesarry. 
+Width and height is not customizable. (It is possible, but there is no visible affect until positioning)
+
+Display inline-block:
+
+Unites the features of the display methods above. It does not starts in a new line, the width and height preferences are customizable.
+
 
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
 #### Your answer: [2p]
+
+An article is a separate , self containing element, with independent comment.
+A section is for structuring the html conent, it is like a "div".
