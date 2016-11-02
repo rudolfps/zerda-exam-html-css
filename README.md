@@ -111,5 +111,7 @@ Unites the features of the display methods above. It does not starts in a new li
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
 #### Your answer: [2p]
 
-An article is a separate , self containing element, with independent comment.
-A section is for structuring the html conent, it is like a "div".
+An article is a separate , self containing element, with independent comment.It is a semantic element , defines its conent. I would use <article> for a newspaper article, or a separate blog entry.
+
+
+A section is for structuring the html conent, it is like a "div". Non-semantic element.
